@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+* { /*Configuração global CSS*/
+    height: auto;
+}
+h1 {
+    color: black; /*Temos essa forma que é a padrão mas limitada*/
+}
+
+.hex {
+    color: #673dba; /*Podemos usar com Hex onde a variedade de cor é maior*/
+}
+
+.rgb {
+    color: rgb(135, 0, 135); /*Rgb tambem com uma variedade de cor maior*/
+}
+
+.hsl {
+    color: hsl(289, 60%, 21%); /*Bom eu achei um dos jeitos mas "chatos" mas pelo q vi HSL é perfeito para criar paletas harmônicas mudando só a luminosidade ou saturação, sem precisar inventar novos tons.
+    Excelente para temas dark/light, porque você consegue fazer a mesma cor mais clara ou mais escura sem alterar o tom principal.*/
+}
+
+.rgba {
+    color: rgba(51, 64, 182, 0.514); /*Adiciona transparencia consegue usar o A(alpha) no hex e no hsl tambem!*/
+}
+
+body{                 /*pode colocar radial inves de linear ai mudaria ali dps invez de to right seria circle ou outro*/
+    background-image: linear-gradient(to right, #3340b3, #357adb, #35afdb); /*Pode ser to = right, left, top, bottom, pode ser por graus tipo 45deg*/ /*Podemos ajustar o quanto a cor vai aparecer se eu colocar 50% depois de colocar uma cor ela ocupara mais partes*/
+    background-attachment: fixed; /*Pelo que eu entendi o fundo fica fixo*/
+    justify-items: center;
+
+}
+
+main {
+    text-align: flex-start;
+}
+
+a {
+    color: blanchedalmond;
+}

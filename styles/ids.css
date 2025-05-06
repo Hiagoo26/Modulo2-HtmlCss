@@ -1,0 +1,70 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Naruto;
+    src: url(../assets/Fonts/njnaruto.ttf) format(truetype);
+}
+@font-face {
+    font-family: Piece;
+    src: url(../assets/Fonts/Onepiece.ttf) format(truetype);
+}
+
+body {
+    color: #c22d2d;
+    background-color: #bebcbcee;
+    justify-items: center;
+    margin: center;
+}
+
+main {
+    background-color: #f0f8ff;
+    padding: 50px 50px 50px 50px;
+    border-radius: 20px;
+    justify-items: center;
+}
+
+h1 {
+    text-align: left;
+}
+
+p {
+    text-align: flex-start;
+}
+
+
+#Luffy { /*# é usado para reprensentar a classe se fosse class como já usei seria .*/
+    color: hsl(0, 88%, 49%); 
+}
+
+#Zoro { /*Pode colocar tipo h1#Zoro para ser mais direto, mas como geralmente so existe um ID com esse nome pode deixar so #Zoro*/
+    color: rgb(27, 216, 100);
+}
+
+#Sanji {
+    color: #fde721;
+}
+
+#Naruto {
+    color: #ff7011;
+}
+
+#Sasuke {
+    color: #131752;
+}
+
+#Sakura {
+    color: #cf77cf;
+}
+
+.o{
+    font-family: Piece;
+}
+
+.n {
+    font-family: Naruto;
+}
+
+a {
+    text-decoration: none;
+    background-color: #c22d2d;
+    color: black;
+}

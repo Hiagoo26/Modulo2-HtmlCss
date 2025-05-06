@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&display=swap'); /*Import de font do google fonts*/
+@font-face { /*Para usar uma fonte baixada*/
+    font-family: 'Brick'; /*Para definir o nome*/
+    src: url(../assets/Fonts/Gabo4.ttf) format(truetype); /*Tipos de format
+    opentype(otf), truetype(ttf), embedded-opentype, truetype-aat(Apple Advanced Typography) e svg*/
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Medidas Absolutas:
+cm, mm, in(polegada), px, pt(ponto), pc(pica)*/
+
+/*Medicas Relativas
+em(altura relativa ao M), ex(relativa ao x), rem(relativo a fonte do body ou no *)
+vw(View width(largura)), vh(View height(altura)), % */
+/*Para medidas de fonte recomenda-se o px ou em
+16px = 1em*/
+
+body {
+    font-size: 1em; /*font-size aumenta ou diminui a fonte*/
+    font-weight: bold; /*font-weight define o valor da fonte
+    existem pesos como lighter, normal, bold e bolder
+    podemos colocar numeros de 100 a 900(100 ligher, 400 normal por exemplo) */
+    font-style: italic; /*font-style define o estilo tipo italico*/
+    /*text-decoration: underline; text-decoration seria para sublinar
+    Ou seja font-weight para deixar em negrito, font-style para italico e text-decoration para sublinhado*/
+    font-family: Arial, Helvetica, sans-serif ; /*Se nã for a fonte Arial iraser a Helvetica se não for vai se a sans-serif. 
+    font-family serve para alterar a fonte das letras
+    */
+}   
+
+.pes {
+    /*shorthand font seria as quatro declarações de cima menos o text-decoration: em 1 so
+     ! Seguir a ordem: font style -> font-weight -> font-size -> font-family */
+    font: lighter 2em 'Times New Roman';
+    text-decoration: none;
+    
+
+}
+
+.google {
+    font-family: "LXGW WenKai Mono TC", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+div {
+    font-family: "LXGW WenKai Mono TC", monospace;
+}
+
+.fonte {
+    font-family: 'Brick', sans-serif;
+    font-size: 4em;
+    
+}
+
+.esq {
+    text-align: left;
+}
+
+.dir {
+    text-align: right;
+}
+
+.centro {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+    text-indent: 20px; /*Espaçamento no inicio do paragrafo*/
+}
+
+
+
