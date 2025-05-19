@@ -9,8 +9,9 @@
 - Cores
 - Fontes
 - Ids & Class
-- Pseudo-class & pseudo-elements
-- Box-Model
+- Pseudo-classes & Pseudo-elementos
+-  Modelo de Caixa (Box Model)
+
 
 ## 💻 Tecnologias
 
