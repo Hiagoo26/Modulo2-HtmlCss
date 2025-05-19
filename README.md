@@ -4,7 +4,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Finalizado-brightgreen)
 
-## 🚀 Funcionalidades
+## 🎨 Fundamentos de Estilo (CSS)
 
 - Cores
 - Fontes
