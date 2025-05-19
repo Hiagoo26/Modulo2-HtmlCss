@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+a {
+    color: rgb(58, 98, 133);
+    text-decoration: none;
+
+}
+
+ul > a:visited {
+    color: rgb(97, 21, 21)
+}
+
+ ul > a:hover {
+    text-decoration: overline;
+}
+
+a:active {
+    color: rgb(58, 98, 133);
+}
+
+ul > a::after {
+    content: "[link]";
+    text-decoration: none;
+    font-weight: 100;
+
+}
+
+/*Pseudo elementos se representa com ::
+eles são “partes” virtuais de um elemento que você pode estilizar com CSS*/

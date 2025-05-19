@@ -1,0 +1,59 @@
+*{
+    
+}
+h1 { /*Box-level
+    Da pra eu trocar o box-level e colocar display: inline; para ficar inline*/
+    text-align: center;
+    height: 100px; /*altura*/
+    width: 250px; /*largura*/
+    border: 10px;
+    border-style: solid;
+    border-width: 8px;
+    border-color: blueviolet;
+    outline: 10px; /*contorno, traçado*/
+    padding: 30px 30px 30px 30px; /*top, right, bottom, left*/
+    margin: 20px;
+}
+
+p {
+    text-align: center;
+    height: 100px;
+    width: 250px;
+    border: 10px; /*Da pra fazer um shorthand juntando as 4 de border propriedades*/
+    border-style: groove;
+    border-width: 10px;
+    border-color: aquamarine;
+    padding: 30px;
+    margin: 20px;
+    outline: 5px;
+    outline-style: solid;
+    outline-color: aqua;
+}
+
+a{ /*Inline-level e da pra transformar em block-level tambem colocando display: block
+    e da pra fazer um inline-block que junta os 2*/
+    text-align: center;
+    border-style: double;
+    color: red;
+    border-color: #212;
+    padding: 5px;
+    margin-left: 130px;
+}
+
+.p{
+    border: 10px solid #87ba;
+    padding: 30px; /*Se todas forem iguais se não segue a ordem cima, direita, baixo, esquerda
+    da pra colocar so 30px e 20px que o de cima e baixo fica com 30 e os laterais ficam com 20 mesma coisa com margin*/
+    margin: 20px;
+}
+
+
+/*Existem caixas do tipo box-level e do tipo do inline-level
+Box-Level:
+Ocupam toda a largura disponível do elemento pai.
+Sempre começam em uma nova linha.
+Ex: div, h1–h6, p, section, article, header, footer
+Inline-level:
+Ocupam apenas o espaço necessário para o conteúdo.
+Não quebram linha automaticamente.
+Ex: span, a, strong, em, img, input*/

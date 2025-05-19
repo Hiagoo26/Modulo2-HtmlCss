@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+body {
+    justify-items: center;
+}
+h1 {
+    text-align: center;
+}
+div {
+    display: inline-block;
+    text-align: center;
+    height: 261px;
+    width: 371px;    
+    border: 1px solid;
+    margin-top: 200px;
+}
+
+#d1 {
+    background-color: aliceblue;
+}
+
+#d2 {
+    background-color: antiquewhite;
+}
+
+#d3 {
+    background-color: whitesmoke;
+}
+
+#d1:hover {
+    background-color: blueviolet;
+}
+
+#d2 > p {  /* o Simbolo > serve para indicar q o p é filho do #d2 por isso so o p é afetado */
+    display: none;/*Deixa o texto invisivel*/
+}
+
+#d2:hover > p {
+    display: block; /*Deixa o texto visivel*/
+    color: red;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+/*Para representar uma pseudo classe se usa :
+ são palavras-chave que você adiciona aos seletores no CSS para definir um estado especial de um elemento
+ Com elas podemos aplicar estilos quando alguma coisa acontecer igual nesse exemplo onde
+ o :hover ativa ao usuário passar o mouse sobre o elemento fazendo o elemento ficar com o background roxo-azulado
+ Existem algumas outras como :active que funciona quando o elemento está sendo clicado
+ :focus Quando um input ou botão está em foco(clicado ou tab)
+ Acredito que de pra criar um menu escondido*/

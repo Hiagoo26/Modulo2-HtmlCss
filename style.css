@@ -28,13 +28,32 @@ body{                 /*pode colocar radial inves de linear ai mudaria ali dps i
     background-image: linear-gradient(to right, #3340b3, #357adb, #35afdb); /*Pode ser to = right, left, top, bottom, pode ser por graus tipo 45deg*/ /*Podemos ajustar o quanto a cor vai aparecer se eu colocar 50% depois de colocar uma cor ela ocupara mais partes*/
     background-attachment: fixed; /*Pelo que eu entendi o fundo fica fixo*/
     justify-items: center;
-
 }
 
 main {
-    text-align: flex-start;
+    text-align: center;
+    background-color: #eaf4fd;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px  rgba(0, 0, 0, 0.404); /* horizontal, vertical, espalhamento e sombra*/
+    /*inset se quiser colocar uma sombra interna*/
+}
+
+h1{
+    margin-top: 26px;
+    border: 10px solid black;
+    border-image-source: url('assets/Icons/barbabranca.webp');
+    border-image-slice: 17;
+    border-image-repeat: repeat; /*Borda personalizada(provalvel que eu não use muito) tem uma shorthand tambem*/
+
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 a {
-    color: blanchedalmond;
+    color: rgb(51, 64, 182);
+    text-decoration: none;
 }
